@@ -1,0 +1,38 @@
+body {
+    background-color: brown;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(3, 300px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.first {
+    grid-row: 1 span;
+    grid-column: 2 span;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.ff {
+    border: 30px solid white;
+    border-radius: 50% 50% 0% 50%;
+    width: 100px;
+    height: 100px;
+}
+.fd {
+    border: 30px solid white;
+    border-radius: 50% 50% 50% 0%;
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
